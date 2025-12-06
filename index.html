@@ -34,16 +34,16 @@
 
         body {
             font-family: 'Zen Maru Gothic', sans-serif;
-            background-color: var(--ac-green);
-            /* 更細緻的斜紋背景 */
-            background-image:
-                repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(255, 255, 255, 0.2) 20px, rgba(255, 255, 255, 0.2) 40px);
+            background-image: url('./my-icon00.png'); /* 你的背景圖片 */
+            background-size: cover;        /* 圖片自動放大到鋪滿畫面 */
+            background-repeat: no-repeat;  /* 不要重複 */
+            background-position: center;   /* 從中間開始排 */
             min-height: 100vh;
             color: var(--ac-dark);
-            /* 防止 iOS 左右滑動 */
             overflow-x: hidden;
             padding-bottom: 20px;
         }
+
 
         /* 頂部狀態列 */
         .status-bar {
